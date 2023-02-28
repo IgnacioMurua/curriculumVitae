@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "roboto",sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+body{
+    background-color: #FEF5E7;
+}
+
+ul li{
+    list-style: none;
+}
+
+.titulo {
+    margin: 50px;
+    font-size: 28px;
+}
+
+.foto {
+    margin: 25px;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: 5px solid #E59866
+}
+
+.nombre{
+    padding: 10px;
+}
+
+.int{
+    border: 2px solid #E59866;
+    border-radius: 50px;
+    background-color: #E59866;
+    font-weight: normal;
+    color: #FEF5E7;
+    width: 25%;
+}
+
+.datos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 20px;
+    line-height: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.subtitulos {
+    text-decoration: underline 2px;
+    font-weight: bolder;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.experiencia {
+    padding: 15px;
+    text-decoration: none;
+    line-height: 40px;
+    padding-left: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-area:
+    "d1 d2"
+    "d3 d4"
+    "d5 d6"
+    "d7 d8";
+}
+
+.exp{
+    font-weight: bold;
+}
+
+.educacion{
+    padding: 10px;
+    padding-top: 15px;
+    line-height: 30px;
+}
+
+.objetivos{
+    width: 95%;
+    padding: 40px;
+    padding-top: 15px;
+}
+
+.lenguajes{
+    padding-bottom: 40px;
+    padding-top: 15px;
+}
